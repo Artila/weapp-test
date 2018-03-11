@@ -1,0 +1,5 @@
+
+.gitattributes
+.vscode/settings.json
+jsconfig.json
+typings/wx.d.ts
