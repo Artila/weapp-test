@@ -1,1 +1,13 @@
 /* pages/weather/weather.wxss */
+.city {
+    padding: 3% 5%;
+    background: #ddd;
+}
+.city text {
+    font-size: 16px;
+    color: #666;
+}
+.city .update {
+    float: right;
+    font-size: 12px;
+}

@@ -1,2 +1,7 @@
 <!--pages/weather/weather.wxml-->
-<text>pages/weather/weather.wxml</text>
+<view class="container">
+    <view class="city" bindtap="bindViewTap">
+        <text>当前城市：{{ basic.city }}</text> 
+        <text class="update">{{ basic.update.loc }}</text> 
+    </view>
+</view>
